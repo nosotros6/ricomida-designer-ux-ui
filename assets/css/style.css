@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-font: #373a3c;
+  --color-borde: #dddddd;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  color: var(--color-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+ol,
+ul {
+  padding: 0;
+}
+
+.border {
+  border-color: var(--color-borde) !important;
+}
+
+.ricomida-logo {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  font-size: 37px;
+}
+
+a:hover {
+  color: #dc3545 !important;
+}
+
+#sec-header img {
+  max-height: 24rem;
+  object-fit: cover;
+}
+#sec-header button {
+  font-size: 0.8rem;
+}
+#sec-header p {
+  font-weight: 700;
+}
+#sec-header h1 {
+  font-size: 1.5rem;
+  margin-top: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+#addFavorities,
+#enviarCorreo {
+  font-size: 16px;
+  width: 160px;
+  margin-right: 5px;
+}
+#sec-carrusel button {
+  width: 0.6rem !important;
+  height: 0.6rem !important;
+  border-radius: 100%;
+  background-color: black !important;
+}
+
+#sec-receta,
+#sec-receta h2,
+#sec-receta h3 {
+  font-size: 1rem;
+}
+#sec-receta ul {
+  list-style: none;
+}
+#sec-receta ol > li {
+  padding: 1rem 0;
+  list-style-position: inside;
+}
+
+#sec-relacionados h3 {
+  font-size: 1.625rem;
+}
+#sec-relacionados h5 {
+  font-size: 1.125rem;
+}
+
+#sec-suscribete h5 {
+  font-size: 1.875rem;
+}
+#sec-suscribete p,
+#sec-suscribete span {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 576px) {
+  #sec-header h1 {
+    font-size: 2rem;
+  }
+  #sec-receta,
+  #sec-receta h2,
+  #sec-receta h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #sec-header {
+    border: none !important;
+  }
+  #sec-header h1 {
+    font-size: 2.5rem;
+  }
+  #sec-header p {
+    font-size: 1.25rem;
+  }
+  #sec-header button {
+    font-size: 1rem;
+  }
+  #sec-relacionados h3 {
+    font-size: 2.5rem;
+  }
+  #sec-relacionados h5 {
+    font-size: 1.5rem;
+  }
+  #sec-suscribete h5 {
+    font-size: 2.5rem;
+  }
+  #sec-suscribete p,
+  #sec-suscribete span {
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #sec-header h1 {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec-header h1 {
+    max-width: 65%;
+  }
+}
