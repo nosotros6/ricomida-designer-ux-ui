@@ -33,11 +33,14 @@ ul {
 .ricomida-logo {
   font-family: "Lobster", cursive;
   color: #fff;
-  font-size: 37px;
+  font-size: 40px;
 }
 
+.text-relleno{
+  color: #212529;
+}
 .img-logo{
-  width: 32px;
+  width: 40px;
 }
 
 a:hover {
