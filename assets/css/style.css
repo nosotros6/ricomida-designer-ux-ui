@@ -148,9 +148,6 @@ textarea {
 .social-icons-home #icono-redes:hover{
   color: rgba(250, 250, 250, 0.6);
 }
-/* .social-icons-home a:hover {
-  color: black;
-} */
 
 @media (min-width: 576px) {
   #sec-header h1 {
